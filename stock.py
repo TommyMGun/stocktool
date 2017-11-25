@@ -1,9 +1,11 @@
+import colorama
 from termcolor import colored
 import datetime as dt
 import pandas as pd
 import pandas_datareader as web
 import sys
 
+colorama.init()
 
 print(colored('''\nMIT License
 
