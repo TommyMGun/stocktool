@@ -3,9 +3,14 @@ from termcolor import colored
 import datetime as dt
 import pandas as pd
 import pandas_datareader as web
+from matplotlib import pyplot as plt
+from matplotlib import style
+import numpy as np
 import sys
 
+style.use('ggplot')
 colorama.init()
+
 
 print(colored('''\nMIT License
 
@@ -53,7 +58,6 @@ def menu():
 
 
 #def graphing():
-	
 
 
 def menu_loop():
