@@ -5,7 +5,6 @@ import pandas as pd
 import pandas_datareader as web
 from matplotlib import pyplot as plt
 from matplotlib import style
-import numpy as np
 import sys
 
 style.use('ggplot')
